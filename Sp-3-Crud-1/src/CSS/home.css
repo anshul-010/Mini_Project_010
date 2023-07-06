@@ -1,0 +1,45 @@
+.container{
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+.cart{
+    border: 1px solid;
+    width: 70%;
+}
+.image{
+    width: 100%;
+    border: 1px solid darkblue;
+    display: block;
+    margin: auto
+}
+.image>img{
+    width: 99%;
+}
+.price{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.price>h3{
+    color: rgb(37, 37, 37);
+}
+.price>p{
+    color: rgb(99, 95, 95);
+    font-weight: bold;
+}
+.description>h4{
+    color: rgb(61, 60, 60);
+}
+.delivery{
+    border: 1px solid green;
+    width:200%;
+    height: 5px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    
+}

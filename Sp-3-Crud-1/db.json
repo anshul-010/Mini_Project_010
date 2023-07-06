@@ -1,0 +1,357 @@
+{
+  "men": [
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 750,
+      "id": 1
+    },
+    {
+      "name": "jeans",
+      "brand": "duke",
+      "img": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/n/6/v/36-sdd5288d-blue-duke-original-imagh7vnmfme9wp4.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 680,
+      "id": 2
+    },
+    {
+      "name": "jeans",
+      "brand": "levi's",
+      "img": "https://rukminim1.flixcart.com/image/612/612/l4yi7bk0/jean/6/n/n/32-18298-1259-levi-s-original-imagfqrcug7chd8d.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1150,
+      "id": 3
+    },
+    {
+      "name": "jeans",
+      "brand": "levi's",
+      "img": "https://rukminim1.flixcart.com/image/612/612/l4zxn680/jean/s/c/d/32-65504-0580-levi-s-original-imagfrr8r56gk2ar.jpeg?q=70",
+      "description": "Men Slim Low Rise Blue Jeans",
+      "rating": 4.5,
+      "price": 1200,
+      "id": 4
+    },
+    {
+      "name": "t-shirt",
+      "brand": "duke",
+      "img": "https://rukminim1.flixcart.com/image/612/612/klzhq4w0/t-shirt/m/g/8/m-lf4530navy-duke-original-imagyzmhbbuxhqn2.jpeg?q=70",
+      "description": "Men Striped Polo Neck White T-Shirt",
+      "rating": 4.5,
+      "price": 800,
+      "id": 5
+    },
+    {
+      "name": "t-shirt",
+      "brand": "levi's",
+      "img": "https://rukminim1.flixcart.com/image/612/612/klzhq4w0/t-shirt/m/g/8/m-lf4530navy-duke-original-imagyzmhbbuxhqn2.jpeg?q=70",
+      "description": "Men Striped Polo Neck White T-Shirt",
+      "rating": 4.2,
+      "price": 1099,
+      "id": 10
+    },
+    {
+      "name": "t-shirt",
+      "brand": "levi's",
+      "img": "https://rukminim1.flixcart.com/image/612/612/klzhq4w0/t-shirt/m/g/8/m-lf4530navy-duke-original-imagyzmhbbuxhqn2.jpeg?q=70",
+      "description": "Men Striped Polo Neck White T-Shirt",
+      "rating": 4.5,
+      "price": 1222,
+      "id": 11
+    }
+  ],
+  "women": [
+    {
+      "name": "jeans",
+      "brand": "levi's",
+      "img": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/c/r/p/28-21325-0315-levi-s-original-imaghzt7vx6gyxwu.jpeg?q=70",
+      "description": "Women Super Skinny Mid Rise Blue Jeans",
+      "rating": 4.5,
+      "price": "$ 19.9",
+      "id": 17
+    },
+    {
+      "name": "jeans",
+      "brand": "levi's",
+      "img": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/b/x/a/26-1-button-highrise-blue-tyffyn-original-imafwyffmw6n8fg9-bb.jpeg?q=70",
+      "description": "Women Super Skinny Mid Rise Blue Jeans",
+      "rating": 4.5,
+      "price": "$ 19.9",
+      "id": 18
+    },
+    {
+      "name": "jeans",
+      "brand": "kotty",
+      "img": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/u/m/e/32-kttladiesjeans862-kotty-original-imag3mfrtdgffffc-bb.jpeg?q=70",
+      "description": "Women Super Skinny Mid Rise Blue Jeans",
+      "rating": 4.5,
+      "price": "$ 19.9",
+      "id": 19
+    },
+    {
+      "name": "jeans",
+      "brand": "kotty",
+      "img": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/a/d/p/m-kttladiesjeans916-kotty-original-imagajtbhqsckbhr-bb.jpeg?q=70",
+      "description": "Women Super Skinny Mid Rise Blue Jeans",
+      "rating": 4.5,
+      "price": "$ 19.9",
+      "id": 20
+    },
+    {
+      "name": "shirts",
+      "brand": "selvia",
+      "img": "https://rukminim1.flixcart.com/image/612/612/xif0q/shirt/0/a/1/l-329tk259-selvia-original-imaghra2p74y7ggc.jpeg?q=70",
+      "description": "Women Regular Fit Solid Spread Collar Casual Shirt",
+      "rating": 4.5,
+      "price": "$ 19.9",
+      "id": 21
+    },
+    {
+      "name": "shirts",
+      "brand": "selvia",
+      "img": "https://rukminim1.flixcart.com/image/612/612/l2ghgnk0/shirt/s/n/u/xxl-bsu06s006-bridezone-original-imagdsgqugumhvww.jpeg?q=70",
+      "description": "Women Regular Fit Solid Spread Collar Casual Shirt",
+      "rating": 4.5,
+      "price": "$ 19.9",
+      "id": 22
+    },
+    {
+      "name": "shirts",
+      "brand": "darzi",
+      "img": "https://rukminim1.flixcart.com/image/612/612/kflftzk0-0/shirt/c/b/k/m-sfshrt2008-sassafras-original-imafwyffsztz5hbr.jpeg?q=70",
+      "description": "Women Regular Fit Solid Spread Collar Casual Shirt",
+      "rating": 4.5,
+      "price": "$ 19.9",
+      "id": 23
+    },
+    {
+      "name": "shirts",
+      "brand": "darzi",
+      "img": "https://rukminim1.flixcart.com/image/612/612/kw6pw280/shirt/v/o/e/l-181tk2902-selvia-original-imag8x5sfmwmzkzf.jpeg?q=70",
+      "description": "Women Regular Fit Solid Spread Collar Casual Shirt",
+      "rating": 4.5,
+      "price": "$ 19.9",
+      "id": 24
+    },
+    {
+      "name": "t-shirt",
+      "brand": "veirdo",
+      "img": "https://rukminim1.flixcart.com/image/612/612/krtjgcw0/top/o/c/0/s-tsh-cartoon-wht-juneberry-original-imag5gqyp4xbsty4.jpeg?q=70",
+      "description": "Women Printed Round Neck White T-Shirt",
+      "rating": 4.5,
+      "price": "$ 19.9",
+      "id": 25
+    },
+    {
+      "name": "t-shirt",
+      "brand": "veirdo",
+      "img": "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/t/3/v/-original-imaghekrgzuhhcqg.jpeg?q=70",
+      "description": "Women Printed Round Neck White T-Shirt",
+      "rating": 4.5,
+      "price": "$ 19.9",
+      "id": 26
+    },
+    {
+      "name": "t-shirt",
+      "brand": "veirdo",
+      "img": "https://rukminim1.flixcart.com/image/612/612/kiulxu80-0/t-shirt/y/o/2/s-tie-dye-babe-juneberry-original-imafyjk6hyzz2w5k.jpeg?q=70",
+      "description": "Women Printed Round Neck White T-Shirt",
+      "rating": 4.5,
+      "price": "$ 19.9",
+      "id": 27
+    },
+    {
+      "name": "t-shirt",
+      "brand": "veirdo",
+      "img": "https://rukminim1.flixcart.com/image/612/612/ksgehzk0/t-shirt/b/o/q/s-zebra-veirdo-original-imag6yt3sfgxuhtd.jpeg?q=70",
+      "description": "Women Printed Round Neck White T-Shirt",
+      "rating": 4.5,
+      "price": "$ 19.9",
+      "id": 28
+    },
+    {
+      "name": "shorts",
+      "brand": "luxis",
+      "img": "https://rukminim1.flixcart.com/image/612/612/xif0q/short/i/h/f/s-line-shorts-justwin-original-imagbnvyexgrcpvv-bb.jpeg?q=70",
+      "description": "Dyed/Washed Women Blue Denim Shorts",
+      "rating": 4.5,
+      "price": "$ 19.9",
+      "id": 29
+    },
+    {
+      "name": "shorts",
+      "brand": "luxis",
+      "img": "https://rukminim1.flixcart.com/image/612/612/xif0q/short/q/b/d/xl-af-7006-styleaone-original-imafzy3qppvscgpv-bb.jpeg?q=70",
+      "description": "Dyed/Washed Women Blue Denim Shorts",
+      "rating": 4.5,
+      "price": "$ 19.9",
+      "id": 30
+    },
+    {
+      "name": "shorts",
+      "brand": "luxis",
+      "img": "https://rukminim1.flixcart.com/image/612/612/k9n3s7k0/short/3/c/e/36-11118504-roadster-original-imafrde6puuvabfv.jpeg?q=70",
+      "description": "Dyed/Washed Women Blue Denim Shorts",
+      "rating": 4.5,
+      "price": "$ 19.9",
+      "id": 31
+    },
+    {
+      "name": "shorts",
+      "brand": "luxis",
+      "img": "https://rukminim1.flixcart.com/image/612/612/l0lbrm80/short/f/k/h/-original-imagccqnywj5jeej.jpeg?q=70",
+      "description": "Dyed/Washed Women Blue Denim Shorts",
+      "rating": 4.5,
+      "price": "$ 19.9",
+      "id": 32
+    },
+    {
+      "name": "jeans",
+      "brand": "levi's",
+      "img": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/c/r/p/28-21325-0315-levi-s-original-imaghzt7vx6gyxwu.jpeg?q=70",
+      "description": "Women Super Skinny Mid Rise Blue Jeans",
+      "rating": 4.5,
+      "price": "$ 19.9",
+      "id": 17
+    },
+    {
+      "name": "jeans",
+      "brand": "levi's",
+      "img": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/b/x/a/26-1-button-highrise-blue-tyffyn-original-imafwyffmw6n8fg9-bb.jpeg?q=70",
+      "description": "Women Super Skinny Mid Rise Blue Jeans",
+      "rating": 4.5,
+      "price": "$ 19.9",
+      "id": 18
+    },
+    {
+      "name": "jeans",
+      "brand": "kotty",
+      "img": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/u/m/e/32-kttladiesjeans862-kotty-original-imag3mfrtdgffffc-bb.jpeg?q=70",
+      "description": "Women Super Skinny Mid Rise Blue Jeans",
+      "rating": 4.5,
+      "price": "$ 19.9",
+      "id": 19
+    },
+    {
+      "name": "jeans",
+      "brand": "kotty",
+      "img": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/a/d/p/m-kttladiesjeans916-kotty-original-imagajtbhqsckbhr-bb.jpeg?q=70",
+      "description": "Women Super Skinny Mid Rise Blue Jeans",
+      "rating": 4.5,
+      "price": "$ 19.9",
+      "id": 20
+    },
+    {
+      "name": "shirts",
+      "brand": "selvia",
+      "img": "https://rukminim1.flixcart.com/image/612/612/xif0q/shirt/0/a/1/l-329tk259-selvia-original-imaghra2p74y7ggc.jpeg?q=70",
+      "description": "Women Regular Fit Solid Spread Collar Casual Shirt",
+      "rating": 4.5,
+      "price": "$ 19.9",
+      "id": 21
+    },
+    {
+      "name": "shirts",
+      "brand": "selvia",
+      "img": "https://rukminim1.flixcart.com/image/612/612/l2ghgnk0/shirt/s/n/u/xxl-bsu06s006-bridezone-original-imagdsgqugumhvww.jpeg?q=70",
+      "description": "Women Regular Fit Solid Spread Collar Casual Shirt",
+      "rating": 4.5,
+      "price": "$ 19.9",
+      "id": 22
+    },
+    {
+      "name": "shirts",
+      "brand": "darzi",
+      "img": "https://rukminim1.flixcart.com/image/612/612/kflftzk0-0/shirt/c/b/k/m-sfshrt2008-sassafras-original-imafwyffsztz5hbr.jpeg?q=70",
+      "description": "Women Regular Fit Solid Spread Collar Casual Shirt",
+      "rating": 4.5,
+      "price": "$ 19.9",
+      "id": 23
+    },
+    {
+      "name": "shirts",
+      "brand": "darzi",
+      "img": "https://rukminim1.flixcart.com/image/612/612/kw6pw280/shirt/v/o/e/l-181tk2902-selvia-original-imag8x5sfmwmzkzf.jpeg?q=70",
+      "description": "Women Regular Fit Solid Spread Collar Casual Shirt",
+      "rating": 4.5,
+      "price": "$ 19.9",
+      "id": 24
+    },
+    {
+      "name": "t-shirt",
+      "brand": "veirdo",
+      "img": "https://rukminim1.flixcart.com/image/612/612/krtjgcw0/top/o/c/0/s-tsh-cartoon-wht-juneberry-original-imag5gqyp4xbsty4.jpeg?q=70",
+      "description": "Women Printed Round Neck White T-Shirt",
+      "rating": 4.5,
+      "price": "$ 19.9",
+      "id": 25
+    },
+    {
+      "name": "t-shirt",
+      "brand": "veirdo",
+      "img": "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/t/3/v/-original-imaghekrgzuhhcqg.jpeg?q=70",
+      "description": "Women Printed Round Neck White T-Shirt",
+      "rating": 4.5,
+      "price": "$ 19.9",
+      "id": 26
+    },
+    {
+      "name": "t-shirt",
+      "brand": "veirdo",
+      "img": "https://rukminim1.flixcart.com/image/612/612/kiulxu80-0/t-shirt/y/o/2/s-tie-dye-babe-juneberry-original-imafyjk6hyzz2w5k.jpeg?q=70",
+      "description": "Women Printed Round Neck White T-Shirt",
+      "rating": 4.5,
+      "price": "$ 19.9",
+      "id": 27
+    },
+    {
+      "name": "t-shirt",
+      "brand": "veirdo",
+      "img": "https://rukminim1.flixcart.com/image/612/612/ksgehzk0/t-shirt/b/o/q/s-zebra-veirdo-original-imag6yt3sfgxuhtd.jpeg?q=70",
+      "description": "Women Printed Round Neck White T-Shirt",
+      "rating": 4.5,
+      "price": "$ 19.9",
+      "id": 28
+    },
+    {
+      "name": "shorts",
+      "brand": "luxis",
+      "img": "https://rukminim1.flixcart.com/image/612/612/xif0q/short/i/h/f/s-line-shorts-justwin-original-imagbnvyexgrcpvv-bb.jpeg?q=70",
+      "description": "Dyed/Washed Women Blue Denim Shorts",
+      "rating": 4.5,
+      "price": "$ 19.9",
+      "id": 29
+    },
+    {
+      "name": "shorts",
+      "brand": "luxis",
+      "img": "https://rukminim1.flixcart.com/image/612/612/xif0q/short/q/b/d/xl-af-7006-styleaone-original-imafzy3qppvscgpv-bb.jpeg?q=70",
+      "description": "Dyed/Washed Women Blue Denim Shorts",
+      "rating": 4.5,
+      "price": "$ 19.9",
+      "id": 30
+    },
+    {
+      "name": "shorts",
+      "brand": "luxis",
+      "img": "https://rukminim1.flixcart.com/image/612/612/k9n3s7k0/short/3/c/e/36-11118504-roadster-original-imafrde6puuvabfv.jpeg?q=70",
+      "description": "Dyed/Washed Women Blue Denim Shorts",
+      "rating": 4.5,
+      "price": "$ 19.9",
+      "id": 31
+    },
+    {
+      "name": "shorts",
+      "brand": "luxis",
+      "img": "https://rukminim1.flixcart.com/image/612/612/l0lbrm80/short/f/k/h/-original-imagccqnywj5jeej.jpeg?q=70",
+      "description": "Dyed/Washed Women Blue Denim Shorts",
+      "rating": 4.5,
+      "price": "$ 19.9",
+      "id": 32
+    }
+  ]
+}
