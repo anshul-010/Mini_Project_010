@@ -12,7 +12,7 @@ export const loginErrorAction =()=>{
 }
 
 export const login = (loginObj)=> (dispatch) => {
-  dispatch(loginReqAction())// Complete login Functionality
+  dispatch(loginReqAction())
   axios.post(`https://reqres.in/api/login`,loginObj)
   .then((res)=>{
     dispatch(loginSuccessAction(res.data.token))

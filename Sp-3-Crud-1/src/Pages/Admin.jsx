@@ -43,6 +43,7 @@ export const Admin = () => {
         <select name="name" id="" required onChange={handleChange} value={data.name}>
           <option value="">Select Name</option>
           <option value="jeans">Jeans</option>
+          <option value="shirt">Shirt</option>
           <option value="t-shirt">T-shirt</option>
         </select>
         <br />
@@ -50,6 +51,7 @@ export const Admin = () => {
           <option value="">Select Brand</option>
           <option value="duke">Duke</option>
           <option value="levi's">Levi's</option>
+          <option value="Peter England">Peter England</option>
         </select>
         <br />
         <input
@@ -128,6 +130,8 @@ const DIV = styled.div`
     font-size: x-large;
     font-weight: bolder;
     color: #363333;
+    border: none;
+    border-radius: 2px;
   }
 
   .button:hover {
@@ -135,6 +139,8 @@ const DIV = styled.div`
     color: white;
     font-size: x-large;
     font-weight: bolder;
+    border: none;
+    border-radius: 2px;
     cursor: pointer;
   }
 

@@ -28,9 +28,9 @@ export const postProductData= (data)=>(dispatch)=>{
   })
 }
 
-export const fetchData=(dispatch)=>{
+export const fetchData = (paramObj)=> (dispatch)=>{
   dispatch(productReqAction())
-  axios.get(`http://localhost:8080/men`)
+  axios.get(`http://localhost:8080/men`,paramObj)
   .then((res)=>{
     dispatch(getProductSuccess(res.data))
     

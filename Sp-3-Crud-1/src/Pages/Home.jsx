@@ -4,23 +4,33 @@ import { store } from '../redux/store'
 import { fetchData } from '../redux/productReducer/action'
 import {styled} from "styled-components"
 import "../CSS/home.css"
+import { useSearchParams } from 'react-router-dom'
 
 export const Home = () => {
 
     const dispatch = useDispatch()
     const data = useSelector((store)=>store.productReducer.products)
-    // console.log("home",data)
+    let [searchParams, setSearchParams] = useSearchParams();
+    // console.log(searchParams.getAll("brand"))
+
+    let paramObj = {
+        params : {
+            brand : searchParams.getAll("brand"),
+            _sort: searchParams.get("order") && "price",
+            _order : searchParams.get("order")
+        }
+    }
 
     useEffect(()=>{
-        dispatch(fetchData)
-    },[])
+        dispatch(fetchData(paramObj))
+    },[searchParams])
 
   return (
       <DIV>
         <div><h1>Home</h1></div>
         <div className='container'  >
         {data?.map((item)=>{
-            return <div className='cart' >
+            return <div className='cart' key={item.id} >
                 <div className='image'><img src={item.img} alt="not found" /></div>
                 <div className='description' >
                     <h4>{item.description}</h4>
@@ -31,8 +41,9 @@ export const Home = () => {
                     <p>onword</p>
                 </div>
                 <div className='delivery' >Free Delivery</div>
-                <div><button className='rating' >{item.rating}</button></div>
+                <div><button className='rating' style={{backgroundColor:item.rating<=2.9?"red":(item.rating>3.0&&item.rating>3.9)?"rgb(56, 240, 56)":"#fbea03"}} >{item.rating}</button></div>
             </div>
+            
         })}
         </div>
         
