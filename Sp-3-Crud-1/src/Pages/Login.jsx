@@ -58,7 +58,7 @@ const DIV = styled.div`
 
     .button{
       border: none;
-      background-color: #000080;
+      background-color: #020262;
       color: white;
       font-weight: bold;
       font-size: large;

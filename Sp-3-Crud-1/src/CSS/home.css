@@ -1,3 +1,4 @@
+
 .container{
     /* border: 1px solid red; */
     display: grid;
@@ -61,4 +62,44 @@
     font-size: larger;
     font-weight: bold;
     color: rgb(4, 87, 122);
+}
+
+.edit-delete{
+    /* border: 1px solid orangered; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: px;
+    margin:28px 0px ;
+}
+
+.edit{
+    background-color: rgb(220, 119, 229);
+    color: white;
+    border: none;
+    width: 22%;
+    border-radius: 3px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: small;
+    letter-spacing: 1px;
+}
+.edit:hover{
+    background-color: rgb(218, 45, 234);
+    cursor: pointer;
+}
+
+.delete{
+    background-color: rgb(237, 58, 58);
+    color: white;
+    border: none;
+    width: 25%;
+    border-radius: 3px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: small;
+    letter-spacing: 1px;
+}
+.delete:hover{
+    background-color: rgb(204, 5, 5);
+    cursor: pointer;
 }

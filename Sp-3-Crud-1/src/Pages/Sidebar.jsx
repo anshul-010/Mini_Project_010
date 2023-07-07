@@ -41,7 +41,11 @@ export const Sidebar = () => {
   function handlePrice(e){
     setOrder(e.target.value)
   }
-  console.log(order)
+  
+  function handleReset(){
+    setOrder("")
+    setBrand([])
+  }
 
   return (
     <DIV
@@ -77,7 +81,7 @@ export const Sidebar = () => {
           <label>High to low</label>
           </div>
           <br />
-          <button onClick={()=>setOrder("")} className="reset" >Reset Price</button>
+          <button onClick={handleReset} className="reset" >Reset All</button>
         </div>
       </div>
     </DIV>
