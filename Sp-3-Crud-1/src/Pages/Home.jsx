@@ -4,7 +4,7 @@ import { store } from "../redux/store";
 import { fetchData } from "../redux/productReducer/action";
 import { styled } from "styled-components";
 import "../CSS/home.css";
-import { useSearchParams } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 
 export const Home = () => {
   const dispatch = useDispatch();
@@ -60,19 +60,19 @@ export const Home = () => {
                   }}
                 >
                   {item.rating}{" "}
-                  {/* <img
+                  <img
                     
                     width={25}
                     height={15}
-                    src=""
+                    src="https://static1.hkrtcdn.com/hknext/static/media/common/misc/small_star_empty.svg"
                     alt="not"
-                  />{" "} */}
+                  />{" "}
                 </div>
               </div>  
-              {isAuth&&<div className="edit-delete" >
-                <button className="edit" >Edit</button>
-                <button className="delete" >Delete</button>
-              </div>}
+              <div className="edit-delete" >
+                <button className="edit" ><Link style={{textDecoration:"none",color:"white"}} to={`edit/${item.id}`} >Edit</Link></button>
+                {isAuth && <button className="delete" >Delete</button>}
+              </div>
             </div>
           );
         })}
