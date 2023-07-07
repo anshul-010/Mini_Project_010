@@ -38,7 +38,7 @@ export const Admin = () => {
 
   return (
     <DIV>
-      <h1>Admin Page</h1>
+      <h1>Add new product</h1>
       <form onSubmit={handleSubmit} >
         <select name="name" id="" required onChange={handleChange} value={data.name}>
           <option value="">Select Name</option>
@@ -99,6 +99,7 @@ const DIV = styled.div`
   left: 50%;
   transform: translate(-50%, -50%);
   box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  margin-top: 50px;
 
   form {
     display: flex;
