@@ -6,6 +6,8 @@ import { Login } from './Login'
 import { LandingPage } from '../components/LandingPage'
 import { PrivateRoute } from '../components/PrivateRoute'
 import { EditProduct } from './EditProduct'
+import { ChakraProvider } from '@chakra-ui/react'
+
 
 export const MainRoutes = () => {
   return (
@@ -15,7 +17,7 @@ export const MainRoutes = () => {
         <Routes>
             <Route path='/' element={<LandingPage/>} />
             <Route path='/admin' element={<PrivateRoute><Admin/></PrivateRoute>}/>
-            <Route path='/edit/:id' element={<PrivateRoute><EditProduct/></PrivateRoute>}/>
+            <Route path='/edit/:id' element={<PrivateRoute><ChakraProvider><EditProduct/></ChakraProvider></PrivateRoute>}/>
             <Route path='/login' element={<Login/>} />
         </Routes>
     </div>

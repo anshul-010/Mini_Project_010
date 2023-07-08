@@ -1,9 +1,12 @@
 import React from 'react'
+import { useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
 import {styled} from "styled-components"
+import { store } from '../redux/store'
 
 
 export const Navbar = () => {
+    const isAuth = useSelector((store)=>store.authReducer.isAuth)
     const links = [
         {
             path:'/',
@@ -11,7 +14,7 @@ export const Navbar = () => {
         },
         {
             path:'/login',
-            title:'Login'
+            title:isAuth?"Logout":"Login"
         },
         {
             path:'/admin',

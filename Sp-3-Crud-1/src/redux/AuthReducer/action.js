@@ -13,14 +13,14 @@ export const loginErrorAction =()=>{
 
 export const login = (loginObj)=> (dispatch) => {
   dispatch(loginReqAction())
-  axios.post(`https://reqres.in/api/login`,loginObj)
+  return (axios.post(`https://reqres.in/api/login`,loginObj)
   .then((res)=>{
     dispatch(loginSuccessAction(res.data.token))
     console.log(res.data)
   })
   .then((err)=>{
     dispatch(loginErrorAction())
-  })
+  }))
 
 };
 

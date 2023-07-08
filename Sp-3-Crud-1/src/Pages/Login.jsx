@@ -2,13 +2,15 @@ import React, { useState } from 'react'
 import { useDispatch } from 'react-redux';
 import {styled} from 'styled-components'
 import { login } from '../redux/AuthReducer/action';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 export const Login = () => {
 
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  
+  const location = useLocation()
+  const navigate = useNavigate()
   const dispatch = useDispatch()
 
   function handleLogin(e){
@@ -17,7 +19,9 @@ export const Login = () => {
       email,
       password
     }
-    dispatch(login(loginObj))
+    dispatch(login(loginObj)).then(()=>{
+      navigate(location.state,{replace:true})
+    })
   }
 
 

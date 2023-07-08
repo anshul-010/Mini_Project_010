@@ -2,18 +2,18 @@
   "men": [
     {
       "name": "jeans",
-      "brand": "duke",
+      "brand": "Peter England",
       "img": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/s/3/x/36-sdd5284medium-blue-duke-original-imaggz53hmfyudt2.jpeg?q=70",
       "description": "Men Slim Low Rise Blue Jeans",
       "rating": 4.5,
-      "price": 750,
+      "price": 850,
       "id": 1
     },
     {
       "name": "jeans",
       "brand": "duke",
       "img": "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/n/6/v/36-sdd5288d-blue-duke-original-imagh7vnmfme9wp4.jpeg?q=70",
-      "description": "Men Slim Low Rise Blue Jeans",
+      "description": "Men Slim Low Rise Blue denim Jeans",
       "rating": 4.5,
       "price": 680,
       "id": 2
